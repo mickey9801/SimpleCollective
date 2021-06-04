@@ -2,6 +2,8 @@
 
 以 Arduino Leonardo 或 Arduino Micro 來製作簡單的牙籤直升機總距杆，讓大家即使用 Xbox 控制器來《 Microsoft Flight Simulator (MSFS2020) 》駕駛直升機仍能有較好的操控。
 
+（本說明文件內容版權屬 Plug Media Series Limited 所有，不得轉載）
+
 [下載 Airbus H135 直升機 Add-On](https://flightsim.to/file/8970/airbus-h135-helicopter-project)
 
 ## 影片介紹

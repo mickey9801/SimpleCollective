@@ -29,10 +29,10 @@
 要令 Arduino Leonardo / Micro 變成 USB 遊戲控制器，需要[由 MHeironimus 開發的 Arduino Joystick Library](https://github.com/MHeironimus/ArduinoJoystickLibrary/releases) ，但這個函式庫沒有登錄到 Arduino 的官方 Library Manager ，所以大家要下載「 Source Code (zip) 」檔案，並將它匯入 Arduino IDE ，就能順利將程式編譯上載到 Arduino 開發板。撰文時 Arduino Joystick Library 的版本為 2.0.7 。
 
 1. 將 Arduino Leonardo / Micro 以 micro USB 線連接到電腦，開啟 Arduino IDE ，確認「 Tools ＞ Board 」選擇了你所選用的開發板，並選擇正確連接埠；
-    ![](docs/2021-06-05 02_43_55-.png)
+    ![](docs/5-1.png)
 2. 以 Arduino IDE 開啟 Collective/Collective.ino 檔案
 3. 在 Arduino IDE 的主選單中選「 Sketch ＞ Include Library ＞ Add .ZIP Library 」，然後選擇下載回來的「 ArduinoJoystickLibrary-2.0.7.zip 」檔案將它匯入。
-    ![](docs/2021-04-19 02_59_23-.png)
+    ![](docs/5-2.png)
 4. 按工具列左上角的「 Verify 」鍵來檢查程式有沒有問題，或者直接按旁邊的「 Upload 」鍵將它上載到 Arduino Leonardo / Micro 。
 
 ## 調校控縱角度

@@ -46,6 +46,7 @@
    ```
 
 2. 在連接著 Arduino Leonardo / Micro 時，開啟 Arduino IDE 的「 Tools ＞ Serial Monitor 」，將電位器扭到你覺得適合的起始角度（總距杆最低的位置），抄下 Serial Monitor 左邊欄位的讀數（本例中是 336 ）。
+    ![](docs/6-1.png)
 3. 接著扭到結束角度（總距杆最高的位置），抄下 Serial Monitor 左邊欄位的讀數（本例中是 500 ）。
 4. 修改程式第 7 行，以抄下的讀數取代 0 和 1023 兩個數值。
 
@@ -61,6 +62,10 @@
 大家只要登入 MSFS2020 ，按「 Options ＞ Controls 」就可以發現多了「 Arduino Leonardo / Micro 」這個控制器，接著就要將完成的牙籤總距杆綁定到「 Throttle Axis （油閥軸）」即可使用。
 
 1. 在左邊「 Search 」欄位輸入 `throttle axis`，並在中間欄點擊中間的灰格；
+    ![](docs/7-1.png)
 2. 點擊介面最頂一欄，然後扭動牙籤總距杆， MSFS2020 就會自動讀取到牙籤總距杆是「 Joystick Slider X 」。按「 VALIDATE 」確認設定；
+    ![](docs/7-2.png)
 3. 設定任意名字來建立新控制器 Profile ，按 OK 完成設定；
+    ![](docs/7-3.png)
 4. 可以扭動一下牙籤總距杆看看 Throttle Axis 的白條有沒有移動。如果發覺方向相反的話，可以勾選左邊的「 REVERSE AXIS 」倒轉操控。測試完成後按「 F11 」即可儲存設定。
+    ![](docs/7-4.png)

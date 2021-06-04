@@ -4,7 +4,9 @@
 
 [下載 Airbus H135 直升機 Add-On](https://flightsim.to/file/8970/airbus-h135-helicopter-project)
 
-[![PCM Gadget Live 牙籤總距杆介紹](https://img.youtube.com/vi/_iHSxeVn-JA/0.jpg)](https://youtu.be/_iHSxeVn-JA?t=760s "PCM Gadget Live 牙籤總距杆介紹")
+## 影片介紹
+
+[![PCM Gadget Live 牙籤總距杆介紹](https://github.com/mickey9801/SimpleCollective/blob/bf45e51b0b2da530d98e2a77a506ce3b3cb99e91/video-02.jpg)](https://youtu.be/_iHSxeVn-JA?t=764s "PCM Gadget Live 牙籤總距杆介紹")
 
 ## 零件表
 

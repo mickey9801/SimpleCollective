@@ -18,7 +18,7 @@ void loop() {
   int value = 0;
   int pos = 0;
 
-  value = analogRead(A2);
+  value = analogRead(A0);
   pos = translateValue(value, axisLimits0[0], axisLimits0[1]);
   Joystick.setThrottle(pos);
   if(printVals) settingPrint(value, pos);
@@ -27,23 +27,6 @@ void loop() {
 }
 
 int translateValue(int v, int f1, int f2){
-  // translates values to a 0 - 1023 range
-  /*
-  int result = 0;
-  int start = 0;
-  float range = 0;
-  
-  if(f1 < f2){
-    start = f1;
-    range = f2 - f1;
-  }
-  else{
-    start = f2;
-    range = f1 - f2;
-  }
-  
-  result = (v - start) * (1023 / range);
-  //*/
   int result = map(v, f1, f2, 0, 1023);
   if(result < 0) result = 0;
   if(result > 1023) result = 1023;
